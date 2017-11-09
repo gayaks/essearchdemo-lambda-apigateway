@@ -1,0 +1,37 @@
+GET /planinfo/_search 
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "SPONSOR_DFE_NAME": "DOMINION"
+          }
+        },
+        {
+          "match": {
+            "PLAN_NAME": "TRIO DOMINION"
+          }
+        }
+      ]
+    }
+  }
+}
+
+
+GET /planinfo/_search 
+{
+  "query": {
+  "bool" : {
+    "must" : [
+      {
+        "match" : {
+        
+           "PLAN_NAME": "TRIO DOMINION"
+          }
+        
+      }
+    ]
+  }
+  }
+}
