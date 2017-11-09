@@ -36,6 +36,7 @@ Using Java, write a micro service that invokes AWS elastic search and make it av
 8. Grade build creates AWS Lambda deployment package 
 
 9. Deployed the <Project>.zip for AWS Lambda through AWS Console
+   . Created Environment Variable SERVER_URI to pass the elastic search server uri to lambda function.
  
 10. Created an AWS API Gateway which uses Lambda functions created in step 8.
 
@@ -57,7 +58,12 @@ ie https://epu5xjken8.execute-api.us-west-2.amazonaws.com/esearch?PLAN_NAME=TRIO
 
 https://epu5xjken8.execute-api.us-west-2.amazonaws.com/esearch?PLAN_NAME=TRIO DOMINION&SPONSOR_DFE_NAME=DOMINION
 
+# Things to Improve
 
+1. Automation of the aws infrastructure through scripts.
+2. Encryption of AWS Environment variables using KMS.
+3. Implmenting API Gateway Custom Authorizers to control access to the endpoint.
 
-    
+# Please treat this as a Proof of concept and can be improved.
+
 
