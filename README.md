@@ -62,7 +62,7 @@ https://epu5xjken8.execute-api.us-west-2.amazonaws.com/esearch?PLAN_NAME=TRIO DO
 
 1. Automation of the aws infrastructure through scripts.
 2. Encryption of AWS Environment variables using KMS.
-3. Implmenting API Gateway Custom Authorizers to control access to the endpoint.
+3. Implmenting API Gateway Custom Authorizers to control access to the endpoint from clients.
 
 # Please treat this as a Proof of concept and can be improved.
 
